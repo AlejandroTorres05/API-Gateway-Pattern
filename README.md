@@ -8,9 +8,15 @@ Un API Gateway actúa como un único punto de entrada para múltiples servicios,
 
 - Se requiere exponer múltiples servicios en un solo endpoint y enrutar hacia el servicio apropiado a partir de la solicitud.
 
-* Se requiere exponer múltiples instancias del mismo servicio en un solo endpoint para balanceo de carga y/o disponibilidad.
+![](/images/multile-disparate-service.png)
 
-* Para exponer diferentes versiones del mismo servicio en un solo endpoint y enrutar el tráfico entre dichas versiones.
+- Se requiere exponer múltiples instancias del mismo servicio en un solo endpoint para balanceo de carga y/o disponibilidad.
+
+![](/images/multiple-instance-service.png)
+
+- Para exponer diferentes versiones del mismo servicio en un solo endpoint y enrutar el tráfico entre dichas versiones.
+
+![](/images/multiple-versions.png)
 
 ## Arquitectura del proyecto
 
