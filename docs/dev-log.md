@@ -41,7 +41,7 @@ Primero, es necesario agregar en el package.json el engine. En nuestro caso, la 
   }
 ```
 
-A continuación, hay que ponerle a cada microservicio un [.gitignore]("../orders-service/.gitignore").
+A continuación, hay que ponerle a cada microservicio un [.gitignore](../orders-service/.gitignore).
 
 Luego, se configura un recurso de aplicación web en Azure para cada uno de los microservicios.
 
