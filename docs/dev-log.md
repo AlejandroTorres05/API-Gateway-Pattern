@@ -68,3 +68,8 @@ Teniendo esto presente, logramos subir correctamente los tres micro servicios co
 ![](./images/userServiceWorking.png)
 ![](./images/OrderServiceWorking.png)
 ![](./images/orderServiceWorking.png)
+
+Ahora, procedemos con la creación del Gateway. Dentro del conjunto de recursos de Azure, se llama API Management.
+Un dato curioso es que tarda aproximadamente 15 minutos en crearse.
+
+![](./images/apiGateWay.png)

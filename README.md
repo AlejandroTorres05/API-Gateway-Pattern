@@ -20,11 +20,31 @@ Un API Gateway actúa como un único punto de entrada para múltiples servicios,
 
 ## Arquitectura del proyecto
 
-## Cómo ejecutar el proyecto
+Este proyecto cuenta con tres microservicios que teóricamente comparten una lógica de negocio porque para un e-commerce sería el modelo `cliente`, `producto`, `orden`. Pero, como están implementados únicamente con fines de demostración del Gateway, son completamente independientes entre sí. Adjunto los repositorios de cada microservicio. También se encuentran en la estructura de este repositorio.
+
+[Microservicio de clientes](https://github.com/AlejandroTorres05/users-service-repo)
+
+[Microservicio de productos](https://github.com/AlejandroTorres05/product-service-repo)
+
+[Microservicio de órdenes](https://github.com/AlejandroTorres05/orders-service-repo)
+
+La arquitectura se completa con el Gateway completamente desplegado y montado en AZURE, no necesita código en este repositorio para poder cumplir su función de redireccionamiento.
 
 ## Endpoints disponibles
 
-## Capturas o Demostración
+Los micro servicios de manera individual, pueden ser accedidos en la nube a través de estos enlaces:
+
+[Microservicio de clientes](https://github.com/AlejandroTorres05/users-service-repo)
+
+[Microservicio de productos](https://github.com/AlejandroTorres05/product-service-repo)
+
+[Microservicio de órdenes](https://github.com/AlejandroTorres05/orders-service-repo)
+
+A través del API Gateway, mediante estos enlaces:
+
+## Demostración y proceso de desarrollo
+
+Todo el proceso de desarrollo y las respectivas evidencias de trabajo, están disponibles en en la bitácora del proyecto que se encuentra dentro de la carpeta docs como [dev-log.md](./docs/dev-log.md).
 
 ## Recursos adicionales
 
