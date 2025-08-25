@@ -73,3 +73,17 @@ Ahora, procedemos con la creación del Gateway. Dentro del conjunto de recursos 
 Un dato curioso es que tarda aproximadamente 15 minutos en crearse.
 
 ![](./images/apiGateWay.png)
+
+Empezamos a agregar nuestras APIs al Gateway
+
+![](./images/aggAPI.png)
+
+Para cada API, es necesario definir los métodos para que el Gateway pueda hacer la redirección de forma correcta.
+
+![](./images/endPointConf.png)
+
+Después de haber configurado cada uno de los microservicios, hacemos la comprobación final para demostrar que nuestro API Gateway funciona correctamente.
+
+![](./images/productsGateWay.png)
+![](./images/ordesGateWay.png)
+![](./images/usrGateWay.png)

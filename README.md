@@ -34,13 +34,19 @@ La arquitectura se completa con el Gateway completamente desplegado y montado en
 
 Los micro servicios de manera individual, pueden ser accedidos en la nube a través de estos enlaces:
 
-[Microservicio de clientes](https://github.com/AlejandroTorres05/users-service-repo)
+[Microservicio de clientes](https://users-service-ct-h4e0gabdc6ede8fu.eastus2-01.azurewebsites.net)
 
-[Microservicio de productos](https://github.com/AlejandroTorres05/product-service-repo)
+[Microservicio de productos](https://products-service-ct-fghrecgkesdmddeb.eastus2-01.azurewebsites.net)
 
-[Microservicio de órdenes](https://github.com/AlejandroTorres05/orders-service-repo)
+[Microservicio de órdenes](https://orders-service-ct-a7fadza8aqasb2fb.eastus2-01.azurewebsites.net)
 
 A través del API Gateway, mediante estos enlaces:
+
+[Microservicio de clientes](https://api-gateway-demo-ct.azure-api.net/user)
+
+[Microservicio de productos](https://api-gateway-demo-ct.azure-api.net/product/products)
+
+[Microservicio de órdenes](https://api-gateway-demo-ct.azure-api.net/srvc/orders)
 
 ## Demostración y proceso de desarrollo
 
